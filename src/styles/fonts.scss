@@ -1,0 +1,17 @@
+@font-face {
+  font-family: IRANSansFaRegular;
+  font-style: normal;
+  font-weight: 100;
+  src: url("/fonts/IRANSansXFaNum-Regular.woff") format("woff"),
+    url("/fonts/IRANSansXFaNum-Regular.woff2") format("woff2"),
+    url("/fonts/IRANSansXFaNum-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: IRANSansBold;
+  font-style: normal;
+  font-weight: 200;
+  src: url("/fonts/IRANSansXFaNum-Bold.woff") format("woff"),
+    url("/fonts/IRANSansXFaNum-Bold.woff2") format("woff2"),
+    url("/fonts/IRANSansXFaNum-Bold.ttf") format("truetype");
+}

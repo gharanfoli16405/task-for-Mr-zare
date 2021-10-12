@@ -1,0 +1,15 @@
+.header {
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eaeef3;
+  height: 67px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: white;
+}
+.fake {
+  height: 67px;
+  margin-bottom: 40px;
+}

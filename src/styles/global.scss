@@ -1,0 +1,63 @@
+@import "./color.scss";
+@import "./fonts.scss";
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: IRANSansFaRegular !important;
+  direction: rtl;
+  text-align: right;
+  direction: rtl;
+  text-align: right;
+  color: $primary;
+  line-height: 30px !important;
+  font-size: 14px;
+  background-color: #eaeef31a;
+  // word-spacing: -8px;
+}
+
+a {
+  color: $primary;
+  text-decoration: none !important;
+}
+ul {
+  margin-bottom: 0;
+  padding-right: 0;
+  li {
+    list-style: none;
+  }
+}
+svg {
+  font-size: 22px;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  border: none;
+  background-color: transparent;
+  &:focus,
+  &:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+textarea:focus {
+  border: 1px solid #80808059 !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+input,
+select {
+  &:focus {
+    // border: 1px solid #;
+    border: 1px solid #ccd0d6 !important;
+    // border: none;
+    box-shadow: none !important;
+  }
+  &::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #cbcbcb !important;
+    opacity: 1; /* Firefox */
+  }
+}
